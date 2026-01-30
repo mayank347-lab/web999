@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1st & 2nd Semester Notes</title>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- MOST IMPORTANT FOR PHONE -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Semester Notes Portal</title>
+
+<style>
+/* ===== RESET ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== BODY ===== */
+body{
+    background:#f4f6fb;
+    color:#1e293b;
+    line-height:1.6;
+}
+
+/* ===== HEADER ===== */
+header{
+    background:linear-gradient(135deg,#1e3a8a,#2563eb);
+    color:#fff;
+    text-align:center;
+    padding:20px 12px;
+}
+
+header h1{
+    font-size:clamp(1.4rem, 5vw, 2.4rem);
+}
+
+header p{
+    font-size:clamp(0.85rem, 3vw, 1.1rem);
+    opacity:0.9;
+}
+
+/* ===== NAV ===== */
+nav{
+    background:#ffffff;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+    padding:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav a{
+    text-decoration:none;
+    color:#1e3a8a;
+    font-weight:600;
+    padding:8px 16px;
+    border-radius:20px;
+    font-size:0.95rem;
+}
+
+nav a:hover{
+    background:#2563eb;
+    color:#fff;
+}
+
+/* ===== MAIN ===== */
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:15px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+    gap:15px;
+}
+
+/* ===== CARD ===== */
+section{
+    background:#ffffff;
+    border-radius:12px;
+    padding:18px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.08);
+}
+
+section h2{
+    color:#1e3a8a;
+    font-size:1.2rem;
+    margin-bottom:10px;
+    border-left:4px solid #2563eb;
+    padding-left:8px;
+}
+
+/* ===== LIST ===== */
+ul{
+    list-style:none;
+}
+
+ul li{
+    margin:8px 0;
+}
+
+ul li a{
+    display:block;
+    padding:12px;
+    background:#f1f5f9;
+    border-radius:8px;
+    text-decoration:none;
+    color:#0f172a;
+    font-size:0.95rem;
+}
+
+ul li a:hover{
+    background:#2563eb;
+    color:#fff;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background:#1e293b;
+    color:#cbd5f5;
+    text-align:center;
+    padding:12px;
+    font-size:0.85rem;
+    margin-top:25px;
+}
+
+/* ===== EXTRA SMALL PHONES ===== */
+@media (max-width:360px){
+    nav a{
+        padding:6px 12px;
+        font-size:0.85rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>📘 Semester Notes Portal</h1>
+    <p>1st & 2nd Semester Study Material</p>
+</header>
+
+<nav>
+    <a href="#sem1">1st Semester</a>
+    <a href="#sem2">2nd Semester</a>
+</nav>
+
+<div class="container">
+
+<section id="sem1">
+    <h2>1st Semester</h2>
+    <ul>
+        <li><a href="">Engineering Mathematics – I</a></li>
+        <li><a href="">Engineering Physics</a></li>
+        <li><a href="">Basic Electrical Engineering</a></li>
+        <li><a href="">Engineering Chemistry</a></li>
+    </ul>
+</section>
+
+<section id="sem2">
+    <h2>2nd Semester</h2>
+    <ul>
+        <li><a href="#">Engineering Mathematics – II</a></li>
+        <li><a href="#">Programming in C</a></li>
+        <li><a href="#">Electronic Devices</a></li>
+        <li><a href="#">Environmental Studies</a></li>
+    </ul>
+</section>
+
+</div>
+
+<footer>
+    © 2026 | Notes Website
+</footer>
+
+</body>
+</html>
+
+
+<body>
+
+    <header>
+        <h1>College Notes Portal</h1>
+        <p>1st & 2nd Semester Notes</p>
+    </header>
+
+    <nav>
+        <a href="#sem1">1st Semester</a>
+        <a href="#sem2">2nd Semester</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="sem1">
+            <h2>1st Semester</h2>
+            <ul>
+                <li><a href="#">Engineering Mathematics – I</a></li>
+                <li><a href="#">Engineering Physics</a></li>
+                <li><a href="">Basic Electrical Engineering</a></li>
+                <li><a href="#">Engineering Chemistry</a></li>
+            </ul>
+        </section>
+
+        <section id="sem2">
+            <h2>2nd Semester</h2>
+            <ul>
+                <li><a href="#">Engineering Mathematics – II</a></li>
+                <li><a href="#">Programming in C</a></li>
+                <li><a href="#">Electronic Devices</a></li>
+                <li><a href="#">Environmental Studies</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 College Notes Website</p>
+    </footer>
+
+</body>
+</html>
